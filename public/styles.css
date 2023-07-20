@@ -1,0 +1,195 @@
+/* Estilos personalizados */
+
+body {
+    padding-top: 15px;
+    width: 1210px;
+    background: linear-gradient(#e66465, #9198e5);
+    color: #333333;
+  }
+  
+  header {
+    margin-bottom: 20px;
+    margin-left: 100px;
+    
+  }
+  
+  .sidebar-menu ul {
+    list-style: inside;
+    
+    
+
+
+  }
+  
+ 
+    
+
+  .col-md-3 {
+
+    background-color: #333333;
+    padding: 55px;
+    font-size: 1.2em;
+    border-radius: 30px;
+    color: #e0e0e0;
+    height: 400px;
+    
+  }
+
+
+
+  a {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+     }
+  
+  .sidebar-menu li {
+    margin-bottom: 40px;
+   
+    
+  }
+  
+  .content {
+    background-color: #ffffff;
+    padding: 100px;
+    border-radius: 30px;
+    
+  }
+  
+  footer {
+    margin-top: 180px;
+    width: 125.51%;
+    padding: 20px;
+    background-color: #333333;
+    color: #ffffff;
+   
+  }
+  
+  footer p {
+    
+    margin-left: 350px;
+  }
+
+
+
+  /* Estilos para Bootstrap */
+  
+  .container-fluid {
+    margin-top: 10px;
+    
+  }
+  
+  .navbar {
+    border-radius: 50px;
+  }
+
+  .navbar-dark .navbar-brand {
+    margin-left: 40px;
+
+    
+    
+  }
+
+  .navbar-brand {
+    font-weight: bold;
+    
+    margin-right: 20px;
+    font-size: 2.1em;
+  }
+  
+  .navbar-nav .nav-link {
+    color: #ffffff;
+    margin-left: 65px;
+    font-size: 1.3em;
+    
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #e0e0e0;
+    
+
+  }
+  
+  footer p {
+    margin-bottom: 0;
+  }
+
+ 
+ .content figure img  {
+
+    width: 70%;
+    box-shadow: rgb(0, 0, 0) 0px 0px 2px;
+    margin-top: -50px; }
+
+ .content figure img {
+
+        width: 70%;
+        box-shadow: rgb(0, 0, 0) 0px 0px 2px;
+        margin-top: -50px; }
+
+ .col-md-10  {
+       left: 25%;
+       width: -100px;;
+    }
+
+
+
+ .content {
+    margin-bottom: 20px;
+    width: 1000px;
+    
+  }
+
+  .col-md-11  {
+    left: 25%;
+    width: -100px;;
+ }
+
+
+
+.content {
+ margin-bottom: 20px;
+ width: 1000px;
+ 
+}
+
+.col-md-12  {
+    left: 25%;
+    width: -100px;;
+ }
+
+
+
+.content {
+ margin-bottom: 20px;
+ width: 1000px;
+ 
+}
+
+.imagenFoto {
+    margin-top: -250px;
+    margin-left: 250px;
+    border-top-left-radius: 50% 50%;
+    border-top-right-radius: 50% 50%;
+    border-bottom-right-radius: 50% 50%;
+    border-bottom-left-radius: 50% 50%;
+}
+
+.float-start {
+    margin-left: -100px;
+    width: 1000px;
+    
+   }
+
+   .contact {
+    margin-left: -100px;
+    width: 1000px;
+    
+   }
+
+img{
+    width: 75%;
+    box-shadow: rgb(0, 0, 0) 0px 0px 2px;
+    margin-top: -50px; } 
+    

@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <title>Tema</title>
+</head>
+
+
+<body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">TEMA: CSS GRID</a>
+        
+  
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="main.html">Inicio</a>
+          
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="tema.html">Tema</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="audio.html">Audios</a>
+              <li class="nav-item">
+                  <a class="nav-link" href="equipo.html">Equipo</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="cuestionario.html">Cuestionario</a>
+                </li>
+
+
+
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+  
+    <div class="container-fluid">
+      <div class="row">
+        <aside class="col-md-3">
+          <div class="sidebar-menu">
+            <ul>
+              <li><a href="main.html">Inicio</a></li>
+              <li><a href="tema.html">Tema</a></li>
+              <li><a href="audio.html">Audio</a></li>
+              <li><a href="equipo.html">Equipo</a></li>
+              <li><a href="cuestionario.html">Cuestionario</a></li>
+            </ul>
+          </div>
+        </aside>
+        <main class="col-md-9">
+          <section class="content">
+            <header>
+                <figure>
+                    <div>
+                    
+                        <img  
+                        src="https://www.freecodecamp.org/news/content/images/2022/05/CSS-GRID-3.png" />
+    
+                    </div>
+                </figure>
+
+                <h3>QUE ES CSS GRID?</h3>
+                <p>
+                    
+                    Grid es uno de los nuevos valores de HTML5 que podemos dar a la propiedad display de un elemento, y que nos permite maquetar las páginas web de una manera mucho más fácil que se hacía con la forma tradicional.
+
+                 </p>
+                
+                 
+                  
+            </header> 
+
+  
+          </section>
+
+          
+        </main>
+
+        <main class="col-md-10">
+            <section class="content">
+              <header>
+                  <figure>
+                      <div>
+                      
+                          <img src="https://raidboxes.io/wp-content/uploads/2021/07/CSS-Grid-Empty-Space.png" />
+      
+                      </div>
+                  </figure>
+  
+                  <h3>Y PORQUE CON GRID?</h3>
+                  <p>
+                      
+                    Con Grid hacemos que un elemento contenga la propiedad display:grid, lo que nos permitirá maquetar de una forma mucho más fácil y potente que con cualquier otro tipo de propiedades. Esto es así porque, al contrario que en otras formas de maquetación, en Grid podemos establecer tanto las filas como las columnas que va a tener el diseño, maquetación o layout, además no sólo en una dimensión, como con Flexbox, sino que vamos a poder especificar la estructura en dos dimensiones.
+  
+                   </p>
+                                       
+              </header> 
+  
+    
+            </section>
+  
+          </main>
+
+
+          <main class="col-md-11">
+            <section class="content">
+              <header>
+                  <figure>
+                      <div>
+                      
+                          <img src="https://dc722jrlp2zu8.cloudfront.net/media/uploads/2019/03/11/captura-de-pantalla-2019-03-11-a-las-162518.png" />
+      
+                      </div>
+                  </figure>
+  
+                  <h3>VAMOOS A VER EJEMPLO DE USO DE GRID</h3>
+                  <p>
+                      
+                    En esta estructura tenemos cuatro filas y cuatro columnas, una cabecera que ocupa la primera columna entera, una zona main que ocupará seis celdas, el pie que ocupará la última fila y una barra lateral que ocupará dos celdas.
+
+                    Todo lo anterior lo podemos hacer utilizando únicamente propiedades CSS, dando al contenedor que tendrá esa estructura la propiedad display:grid.
+  
+                   </p>
+                                       
+              </header> 
+  
+    
+            </section>
+  
+          </main>
+
+          <main class="col-md-12">
+            <section class="content">
+              <header>
+                  <figure>
+                      <div>
+                      
+                          <img src="https://miro.medium.com/max/860/1*FifZUGz97Onmb7RUOairbg.png" />
+      
+                      </div>
+                  </figure>
+  
+                  <h3>GRID O FLEXBOX</h3>
+                  Grid  va un paso más allá de Flexbox y utiliza las dos dimensiones mientras que Flexbox aplica sólo una. Con Flexbox sólo podías definir qué es lo que tenían que hacer los items en el eje horizontal o en el eje vertical. Cuando en el eje vertical u horizontal se terminaba el espacio, entonces los items se iban colocando dependiendo de las configuración de los atributos Flexbox. Por ejemplo, en el caso de usar flex-wrap, cuando llegaba un ítem que no cabía en la horizontal, se iba a la siguiente fila. Pero tú no controlas esas dos filas, los propios ítems son los que se van acomodando. Te recomendamos consultar los tutoriales de Flexbox que hemos publicado recientemente.</p>
+                <p>Sin embargo, CSS Grid nos permite trabajar con dos dimensiones y es posible decidir dónde ubicar las casillas, tanto en la horizontal como en la vertical, coordinando perfectamente las dimensiones de cada fila o columna, de manera global o perfectamente independiente. No necesita trucos, ni forzar que se queden sin sitio, Grid realmente ofrece a los diseñadores web el control detallado de la posición y dimensiones de cada elemento en cada eje.</p>
+                                       
+              </header> 
+  
+    
+            </section>
+  
+          </main>
+
+        
+         
+
+
+
+
+
+
+
+
+
+
+      </div>
+    </div>
+  
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-13">
+            <p>Todos los Derechos Reservados - Ultima Actualizacion Junio 2023</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  
+    
+    
+    
+  
+  
+  
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  </body>
+  </html>
+  

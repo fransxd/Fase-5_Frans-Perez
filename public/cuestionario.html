@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <title>CSS GRID</title>
+
+
+</head>
+
+
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">CUESTIONARIO</a>
+      
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="main.html">Inicio</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="tema.html">Tema</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="audio.html">Audio</a>
+            <li class="nav-item">
+                <a class="nav-link" href="equipo.html">Equipo</a>
+              </li>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="cuestionario.html">Cuestionario</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+
+
+
+  <div class="container-fluid">
+    <div class="row">
+      <aside class="col-md-3">
+        <div class="sidebar-menu">
+          <ul>
+            <li><a href="main.html">Inicio</a></li>
+            <li><a href="tema.html">Tema</a></li>
+            <li><a href="audio.html">Audio</a></li>
+            <li><a href="equipo.html">Equipo</a></li>
+            <li><a href="cuestionario.html">Cuestionario</a></li>
+          </ul>
+        </div>
+      </aside>
+      <main class="col-md-9">
+        <section class="content">
+            <header>
+                <h1 id="resultado">Responda las siguientes preguntas</h1>
+  <div>
+
+    <br>
+ 
+    <div class="container"> 
+        <section id="p0">
+        <h2> 1- ¿Cuál de las siguientes afirmaciones describe mejor CSS GRID? </h2>
+        <label>
+        <input type="radio" value="1" name="p0" onclick="respuesta(0,this)"> A- Una forma de posicionar elementos utilizando coordenadas X e Y.
+        
+        </label>
+        
+        
+        
+        <label>
+        <input type="radio" value="2" name="p0" onclick="respuesta(0,this)"> B- Una técnica de diseño web para crear animaciones interactivas.
+
+        </label>
+        
+        
+        <label>
+        <input type="radio" value="3" name="p0" onclick="respuesta(0,this)"> C- Un lenguaje de programación utilizado para construir sitios web.
+
+        </label>
+        
+        
+        
+        <label>
+        <input type="radio" value="4" name="p0" onclick="respuesta(0,this)"> D- Un sistema de diseño de diseño de cuadrícula bidimensional.
+
+
+        </label>
+        </section>
+        
+        <section id="p1">
+        <h2> 2- ¿Cuál es la propiedad CSS que se utiliza para definir una cuadrícula en CSS GRID?</h2>
+        
+        <label>
+        <input type="radio" value="1" name="p1" onclick="respuesta(1,this)"> A- grid-template-rows
+        <br>
+        <label>
+        
+        <input type="radio" value="2" name="p1" onclick="respuesta(1,this)"> B- grid-gap
+
+        </label>
+        
+        <br>
+        
+        <label>
+        <input type="radio" value="3" name="p1" onclick="respuesta(1,this)"> C- flex-direction
+
+        </label>
+        
+        <br>
+        
+        <label>
+        <input type="radio" value="4" name="p1" onclick="respuesta(1,this)"> D- position
+
+
+        </label>
+        
+        </section>
+        <section id="p2">
+        <h2> 3- ¿Cuál es la principal diferencia entre CSS GRID y CSS Flexbox?</h2>
+        
+        <label>
+        <input type="radio" value="1" name="p2" onclick="respuesta(2,this)">  A- CSS GRID solo se utiliza para diseños verticales, mientras que CSS Flexbox se utiliza para diseños horizontales.
+
+        </label>
+        
+        <br>
+        
+        <label>
+        <input type="radio" value="2" name="p2" onclick="respuesta(2,this)"> B- CSS GRID es un sistema de diseño bidimensional, mientras que CSS Flexbox es un sistema unidimensional.
+        </label>
+        
+        <br>
+        
+        <label>
+        <input type="radio" value="3" name="p2" onclick="respuesta(2,this)"> C- CSS GRID solo se utiliza en navegadores modernos, mientras que CSS Flexbox es compatible con todos los navegadores.
+        </label>
+        
+        <br>
+        
+        <label>
+        <input type="radio" value="4" name="p2" onclick="respuesta(2,this)"> D- CSS GRID solo se utiliza para diseños responsivos, mientras que CSS Flexbox se utiliza para diseños estáticos.
+        </label>
+        
+        </section>
+        <section id="p3">
+        <h2> 4- ¿Qué propiedad se utiliza para especificar el tamaño de las columnas en CSS GRID? </h2>
+        <label>
+        <input type="radio" value="1" name="p3" onclick="respuesta(3,this)">  A- grid-column
+        </label>
+        
+        <br>
+        
+        <label>
+        <input type="radio" value="2" name="p3" onclick="respuesta(3,this)"> B- column-width 
+        </label>
+        
+        <br>
+        
+        <label>
+        <input type="radio" value="3" name="p3" onclick="respuesta(3,this)"> C- grid-template-columns
+
+        </label>
+        
+        <br>
+        
+        <label>
+        <input type="radio" value="4" name="p3" onclick="respuesta(3,this)"> D- column-count
+
+
+        </label>
+        </section>
+        <section id="p4">
+        <h2> 5- ¿Cuál es una ventaja de utilizar CSS GRID en el diseño de sitios web?</h2>
+        
+        <label>
+        <input type="radio" value="1" name="p4" onclick="respuesta(4,this)">  A- Mayor compatibilidad con navegadores antiguos
+        </label>
+        <br>
+        
+        <label>
+        <input type="radio" value="2" name="p4" onclick="respuesta(4,this)"> B- Menor complejidad de implementación en comparación con CSS Flexbox.
+
+        </label>
+
+        <br>
+        
+        <label>
+        <input type="radio" value="3" name="p4" onclick="respuesta(4,this)"> C- Mayor control sobre la posición y el tamaño de los elementos en la página.
+
+        </label>
+        
+        <br>
+        
+        <label>
+        <input type="radio" value="4" name="p4" onclick="respuesta(4,this)"> D- Mejor rendimiento en dispositivos móviles.
+
+
+        </label>
+        </section>
+
+        <br>
+        
+        <button onclick="enviar()"> Enviar </button>
+        <br>
+
+        
+    
+
+        <h3>Cantidad de Respuestas Acertadas: <get id="resultados"></get></h3>
+        </main><script src="script.js"></script
+        
+    
+    </div>   
+    
+   
+        </header> 
+        
+        
+      >
+
+      
+
+
+    </div>
+    
+    
+  </div>
+  
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-13">
+          <p>Todos los Derechos Reservados - Ultima Actualizacion Junio 2023</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  
+  
+  
+
+
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>
+
